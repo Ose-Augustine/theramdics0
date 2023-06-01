@@ -33,7 +33,7 @@ export default function App() {
         </div>
         <div className="relative h-max w-max">
           <img className="my-6"src="./lounge.jpg" alt="Picture of a lounge area with a sofa, pillows and fairly lit room" />
-          <div className=" h-32 w-32 rounded-full flex justify-center items-center  bg-black absolute ">
+          <div className=" h-32 w-32 rounded-full flex justify-center items-center  bg-black absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <div>SHRWL</div>
           </div>
         </div>
