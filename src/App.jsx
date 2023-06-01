@@ -13,7 +13,10 @@ export default function App() {
       </div>
       <button className="rounded-full px-8 py-4 border-2 border-white">Free Consult</button>
      </header>
-     <Hero />
+     <main className="bg-black bg-opacity-90 p-20">
+        <Hero />
+     </main>
+     
     </div>
   )
 }
