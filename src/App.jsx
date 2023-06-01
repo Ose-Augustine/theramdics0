@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import Organise from "./components/Organise";
 import Time from "./components/Time";
 
 export default function App() {
@@ -31,11 +32,43 @@ export default function App() {
             <div>AVAILABLE FOR RENT AND SALES</div>
           </p>
         </div>
-        <div className="relative h-max w-max">
+        <div className="relative">
           <img className="my-6"src="./lounge.jpg" alt="Picture of a lounge area with a sofa, pillows and fairly lit room" />
           <div className=" h-32 w-32 rounded-full flex justify-center items-center  bg-black absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <div>SHRWL</div>
+            <div className="text-[24px]">SHRWL</div>
           </div>
+        </div>
+        <div className="p-6 flex justify-between mb-32">
+          <p>
+            <div className="p-4">
+              <i></i>
+            </div>
+          </p>
+          <p className="text-[40px] uppercase tracking-tighter leading-[48px]">
+            Indulge in the ultimate luxury with our <br />
+            handcrafted furniture pieces. Impeccable <br />
+            quality, exquisite design, and premium <br />
+            materials are the hallmarks of our <br />
+            collections. Browse our curated <br />
+            selection and experience the opulence of <br /> high-end furniture.
+          </p>
+        </div>
+        <section className="uppercase">
+          <p className=" text-[96px]"> What we offer</p>
+          <p className="text-[#A5A5A5]">
+            We offer the most beautiful homes and <br /> apartments available for rent and sales
+          </p>
+        </section>
+        <div className="w-screen flex">
+            <div className="w-1/3 ">
+              <Organise />
+            </div>
+            <div className="border-white border-2 grid grid-cols-2">
+              <Organise />
+              <img src="/Rectangle4.jpg" alt="Dimly lit room with dark sofa and wall pictures" />
+              <img src="./Rectangle3.jpg" alt="Golden lamps" />
+              <Organise />
+            </div>
         </div>
      </main>
      
