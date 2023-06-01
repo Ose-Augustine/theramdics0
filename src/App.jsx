@@ -1,12 +1,13 @@
 import Hero from "./components/Hero";
 import NestedIcon from "./components/NestedIcon";
 import Organise from "./components/Organise";
+import SpinLogo from "./components/SpinLogo";
 import Time from "./components/Time";
 
 export default function App() {
   return (
     <div className="text-white">
-     <header className="text-white bg-[#0D0D0D] p-6 flex justify-between justify-items-center">
+     <header className="text-white  bg-[#0D0D0D] p-6 flex justify-between justify-items-center">
       <div>RealEstate &reg;</div>
       <div>
         <a className="mr-4"href="#">HOME</a>
@@ -15,6 +16,7 @@ export default function App() {
         <a className="mr-4"href="#">ABOUT</a>
       </div>
       <button className="rounded-full px-8 py-4 border-2 border-white">Free Consult</button>
+      
      </header>
      <main className="bg-black bg-opacity-95 p-4">
         <Hero />
@@ -28,9 +30,9 @@ export default function App() {
         <div className="flex flex-col items-center">
           <p className="font-[400px] text-[300px]">Aesthetic. </p>
           <p className="flex flex-col">
-            <div>WE OFFER THE MOST BEAUTIFUL</div>
-            <div className="px-4">HOMES AND APARTMENTS</div>
-            <div>AVAILABLE FOR RENT AND SALES</div>
+            <p>WE OFFER THE MOST BEAUTIFUL</p>
+            <p className="px-4">HOMES AND APARTMENTS</p>
+            <p>AVAILABLE FOR RENT AND SALES</p>
           </p>
         </div>
         <div className="relative">
@@ -123,6 +125,7 @@ export default function App() {
             
           </p>
         </div>
+        <SpinLogo />
      </footer>
     </div>
   )
