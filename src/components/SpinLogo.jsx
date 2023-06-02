@@ -3,12 +3,12 @@ import { useEffect } from 'react';
 
 export default function SpinLogo() {
     useEffect(() => {
-      new CircleType(document.querySelector('.circular-text h1'))
+      new CircleType(document.querySelector('.circular-text'))
     }, []);
   
     return (
-      <div className="circular-text">
-        <h1 className='text-md'>BEST CUSTOMER EXPERIENCE</h1>
+      <div className="circular-text rounded-full h-24 w-24 absolute right-6 top-7 text-[10px] ">
+        BEST CUSTOMER EXPERIENCE
       </div>
     );
   }

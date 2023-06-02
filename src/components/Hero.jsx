@@ -1,3 +1,5 @@
+import SpinLogo from "./SpinLogo";
+
 export default function Hero() {
     return (
         <section className="h-screen tracking-tighter">
@@ -7,7 +9,7 @@ export default function Hero() {
                     <img src="./hero1.jpg" alt="image of furniture" />
                     <span className="text-[155px] font-[400px]">ONLY</span>
                </span>
-               <span className="border-4 border-green-400 rounded-full h-24 w-24 absolute right-3 top-7"> </span>
+               <SpinLogo />
             </div>
             <div className="h-2/3 relative">
                 <div className="h-full w-full flex justify-items-start justify-evenly absolute">

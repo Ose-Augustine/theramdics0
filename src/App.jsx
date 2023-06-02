@@ -1,7 +1,6 @@
 import Hero from "./components/Hero";
 import NestedIcon from "./components/NestedIcon";
 import Organise from "./components/Organise";
-import SpinLogo from "./components/SpinLogo";
 import Time from "./components/Time";
 
 export default function App() {
@@ -121,11 +120,8 @@ export default function App() {
         <div>
           <p className="border-b-[#545454]  text-[#545454] text-[128px] leading-[124px]">love our stuff? <br /> send us an email.</p>
           <p className="">
-            <i className="border-white border-2 rounded-full p-4"><img src="./facebook.jpg" alt="facebook icon" /></i><i className="border-white border-2 rounded-full p-4"><img src="./instagram.jpg" alt="instagram icon" /></i><i className="border-white border-2 rounded-full p-4"><img src="linkedin.jpg" alt="linkedin icon" /></i>
-            
           </p>
         </div>
-        <SpinLogo />
      </footer>
     </div>
   )
